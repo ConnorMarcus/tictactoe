@@ -1,0 +1,124 @@
+body {
+    background: rgb(228,228,253);
+}
+header {
+    font-size: 32pt;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+#main-table {
+    margin: auto;
+    border-spacing: 0;
+}
+
+.gridspace {
+    width: 5rem;
+    height: 5rem;
+    font-size: 4.5rem;
+    font-family: "Roboto Thin", serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.border-right {
+    border-right: solid black 0.5rem;
+}
+
+.border-bottom {
+    border-bottom: solid black 0.5rem;
+}
+
+.top-label {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#gamecode-label {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+#player-label {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0.75rem;
+}
+
+.hidden {
+    display: none;
+}
+
+#main-content {
+    text-align: center;
+    background-color: rgb(109, 116, 239);
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 0.25rem 2rem 2rem 3rem;
+    border: black solid 2px;
+}
+
+#username-label {
+    text-align: left;
+    margin: 0 0 0 5%;
+    color: white;
+    font-size: 16pt;
+}
+
+#username-input {
+    margin-bottom: 1rem;
+    font-size: 16pt;
+    width: 90%;
+}
+
+#new-game-button, #join-game-button {
+    background-color: rgb(228,228,253);
+    color: rgb(109, 116, 239);
+    font-size: 10pt;
+    padding: 0.5rem;
+}
+
+#new-game-button:hover, #join-game-button:hover {
+    opacity: 70%;
+}
+
+#chat-container {
+    background-color: white;
+    text-align: center;
+    height: 16rem;
+    padding-bottom: 0.75rem;
+    margin-top: 3rem;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+#chatbox {
+    height: 13rem;
+    overflow-y: scroll;
+    text-align: left;
+    padding-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#send-input {
+    width: 60%;
+}
+
+#send-btn {
+    background-color: rgb(109, 116, 239);
+    width: 20%;
+    font-weight: bold;
+}
+
+#send-btn:hover {
+    opacity: 70%;
+}
+
+#chat-label {
+    font-size: 18pt;
+    font-weight: bold;
+}

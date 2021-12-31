@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.10.2/qs.min.js" integrity="sha512-ErYZLDi4WRoox2JhOIADWBydTRhMJ0KIXnv5C1GvuY8YooLGapnebaM3iRGhwS6/E9ONXj0MRXp6bhu73sdFkg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="game.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div id="gamecode-label">Your Game Code:</div>
+        <div class="top-label" id="waiting-label">Waiting for other player to join</div>
+        <div class="hidden top-label" id="turn-label">Turn: <a id="turn">X</a></div>
+        <table id="main-table">
+            <tr class="border-bottom">
+                <td class="border-right border-bottom"><div class="gridspace row1 column1 diagonal1" id="top-left"></div></td>
+                <td class="border-right border-bottom"><div class="gridspace row1 column2" id="top-middle"></div></td>
+                <td class="border-bottom"><div class="gridspace row1 column3 diagonal2" id="top-right"></div></td>
+            </tr>
+            <tr>
+                <td class="border-right border-bottom"><div class="gridspace row2 column1" id="mid-left"></div></td>
+                <td class="border-right border-bottom"><div class="gridspace row2 column2 diagonal1 diagonal2" id="mid-middle"></div></td>
+                <td class="border-bottom"><div class="gridspace row2 column3" id="mid-right"></div></td>
+            </tr>
+            <tr>
+                <td class="border-right"><div class="gridspace row3 column1 diagonal2" id="bot-left"></div></td>
+                <td class="border-right"><div class="gridspace row3 column2" id="bot-middle"></div></td>
+                <td><div class="gridspace row3 column3 diagonal1" id="bot-right"></div></td>
+            </tr>
+        </table>
+        <div id="player-label">You are player:</div>
+        <div id="chat-container">
+            <div id="chat-label">Chat</div>
+            <div id="chatbox">
+
+            </div>
+            <div id="send-area">
+                <input type="text" id="send-input" placeholder="Enter Message">
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
