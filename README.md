@@ -5,3 +5,5 @@ Link: https://tic-tac-toe-game.azurewebsites.net
 
 Note: When the website is first accessed it may take long for it to load since Azure will make the application idle with the free tier.
 
+![Alt text](AppDemo1?raw=true "Landing Page")
+![Alt text](AppDemo2?raw=true "Game Page")
