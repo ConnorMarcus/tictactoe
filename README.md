@@ -8,7 +8,6 @@ Link: https://tic-tac-toe-game.azurewebsites.net
 Note: The website has run out of resources using the free tier of Azure so it is currently unavailable.
 
 <p align="center">
-  <img src="AppDemo1.png">
-![Alt text](AppDemo1.png?raw=true "Landing Page")
-![Alt text](AppDemo2.png?raw=true "Game Page")
+  <img src="AppDemo1.png" /><br/>
+  <img src="AppDemo2.png" />
 </p>
