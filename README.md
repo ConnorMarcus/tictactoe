@@ -7,7 +7,7 @@ Link: https://tic-tac-toe-game.azurewebsites.net
 
 Note: The website has run out of resources using the free tier of Azure so it is currently unavailable.
 
-<br/><br/>
+<br/>
 <p align="center">
   <img src="AppDemo1.png" /><br/><br/>
   <img src="AppDemo2.png" />
